@@ -2,7 +2,7 @@ $(function()
 {
 	// Variable to store your files
 	var files;
-
+	var test;
 	// Add events
 	$('input[type=file]').on('change', prepareUpload);
 	$('form').on('submit', uploadFiles);
